@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --sponge-yellow: #ffe04d;
+  --sponge-yellow-deep: #f5c518;
+  --sea-deep: #0a3d62;
+  --sea-mid: #1e6f9f;
+  --sea-light: #3fb6c9;
+  --coral: #ff6b6b;
+  --bubble: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Comic Sans MS", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #6dd5ed 0%, #1e6f9f 45%, #0a3d62 100%);
+  position: relative;
+}

@@ -1,0 +1,14 @@
+# 依赖与构建产物（每次开机会被重置，不用提交）
+node_modules/
+dist/
+.vite/
+
+# 后端构建产物与日志
+target/
+log/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+*.local
